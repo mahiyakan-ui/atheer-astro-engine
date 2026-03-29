@@ -1,19 +1,16 @@
 {
-  "name": "astro-engine-pro",
+  "name": "atheer-astro-engine",
   "version": "1.0.0",
-  "description": "Professional Swiss Ephemeris API with Zod Validation",
-  "main": "index.js",
-  "scripts": {
-    "start": "node index.js"
-  },
+  "description": "Professional Astro Engine API",
+  "main": "api/index.js",
   "dependencies": {
-    "fastify": "^4.26.0",
-    "@fastify/cors": "^9.0.1",
-    "swisseph": "^0.7.1",
-    "luxon": "^3.4.4",
-    "zod": "^3.22.4"
+    "fastify": "^4.0.0",
+    "@fastify/cors": "^8.0.0",
+    "swisseph": "0.7.1",
+    "luxon": "^3.0.0",
+    "zod": "^3.0.0"
   },
   "engines": {
-    "node": ">=18.0.0"
+    "node": "18.x"
   }
 }
